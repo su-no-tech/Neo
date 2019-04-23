@@ -1,0 +1,82 @@
+@font-face {
+    font-family: 'Abadi MT Condensed';
+    src: url('AbadiMT-CondensedLight.woff2') format('woff2'),
+        url('AbadiMT-CondensedLight.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+}
+
+
+html, body {
+    font-family: "Abadi MT Condensed";
+    background-color: darkgray;
+    height: 100%;
+    width: 100%;
+}
+
+.logo img{
+height: auto;
+width: 10vw;
+align-content: center;
+
+}
+.nav {
+    width: 100vw;
+    font-size: 1.5rem;
+    text-align: justify;
+    background-color: transparent;
+  
+}
+.nav a{
+    color: white;
+}
+
+.nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    
+  }
+  .nav li {
+      display: inline-block;
+      
+  }
+  .nav-item {
+    margin-left: 50px;
+    margin-right: 50px;
+      margin-top: 15px;
+  }
+
+  .footer {
+      width: 100%;
+      height: auto;
+      background-color: #1b1b1b;
+      color: #898989;
+      display: table;
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+     
+      
+      
+  }
+  .footer a{
+    width: 100%;
+    height: auto;
+    margin-left: 50px;
+    margin-right:50px;
+    color: #e4dfda;
+    align-content: center;
+    margin:50px;
+    font-size: 1.25rem;
+}
+.footer p {
+    margin-top: 100px;
+}
+  .footer img {
+      padding-top: 15px;
+      height: auto;
+      width: 5vw;
+      margin-bottom:50px;
+      
+  }
