@@ -17,7 +17,7 @@ html, body {
 }
 
 .header h2,h3  {
-    float: center;
+
     display: table;
     text-align: center;
     margin-left: auto;
@@ -41,7 +41,6 @@ margin-top:-10px;
     display: none;
 }
 
-}
 .nav {
     width: 100vw;
     text-align: justify;
@@ -184,4 +183,44 @@ margin-top:-10px;
  
 .navbar-toggler.collapsed .bottom-bar {
   transform: rotate(0);
+}
+
+
+
+/*curtis add*/
+.container-fluid{
+    background-color: black;
+    height: 100%;
+    width: 100%;
+}
+#myProgress {
+    margin-top: auto;
+    width: 100%;
+    background-color: black;
+    display: flex;
+
+}
+
+#myBar {
+    margin-top: 9px;
+    height: 3px;
+    background-color: #4CAF50;
+    line-height: 30px;
+
+
+        
+}
+#myBarBall{
+    background-color:#4CAF50;
+    position: relative;
+    left:0;
+    width:20px;
+    height:20px;
+    border-radius:10px;
+
+
+
+
+
+
 }
