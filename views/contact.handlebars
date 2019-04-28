@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="public/css/app.css">
+    <!--for animate form-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css">
+
+    <title>Home</title>
+</head>
+
+<body>
+
+<div class="container">
+
+
+<div class="wrapper animated bounceInLeft">
+
+{{msg}}
+<form method="POST" action="send">
+  <div class="form-group">
+    <label for="FormControlInputFirstName">First Name *Required</label>
+    <input name = "firstName"type="text" class="form-control form-control-lg" id="FormControlInputFirstName" placeholder="First Name" required>
+  </div>
+  <div class="form-group">
+    <label for="FormControlInputLastName">Last Name *Required</label>
+    <input name = "lastName" type="text" class="form-control form-control-lg" id="FormControlInputLastName" placeholder="Last Name" required>
+  </div>
+  <div class="form-group">
+    <label for="FormControlEmail">Email Address *Required</label>
+    <input name ="email" type="email" class="form-control" id="FormControlEmail" placeholder="name@example.com" required>
+  </div>
+  <div class="form-group">
+    <label for="FormControlPhoneNumber">Phone Number *Required</label>
+    <input name ="telNumber" type="tel" class="form-control" id="FormControlPhoneNumber" placeholder="555-555-5555" required>
+  </div>
+  <div class="form-group">
+    <label for="FormControlTextarea">Contents *Required</label>
+    <textarea name = "contents" class="form-control" id="FormControlTextarea" rows="4">
+
+
+    </textarea>
+  </div>
+  <div class="form-group row">
+      <div class="offset-sm-5 col-sm-7">
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </div>
+    </div>
+</form>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+   <footer class="footer sticky-bottom">
+       <img src="img/footer.png" alt="">
+       <br>
+            <a href="#">Home</a>
+            <a href="#">News</a>
+            <a href="#">Works</a>
+            <br>
+            <a href="#">Company</a>
+            <a href="#">Recruit</a>
+            <a href="#">Contact</a>
+            <br>
+            <p> Copyright &copy; neo 2019 All Rights Reservered.</p>
+            </footer>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+          <!-- Optional JavaScript -->
+</body>
+
+</html>
+

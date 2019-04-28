@@ -1,0 +1,25 @@
+{
+  "name": "emailform",
+  "version": "1.0.0",
+  "description": "emailform made by js",
+  "main": "emailform.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/su-no-tech/Neo.git"
+  },
+  "author": "curtis",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/su-no-tech/Neo/issues"
+  },
+  "homepage": "https://github.com/su-no-tech/Neo#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.2",
+    "nodemailer": "^6.1.1"
+  }
+}
