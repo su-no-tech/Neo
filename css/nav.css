@@ -1,0 +1,147 @@
+.navbar-logo2 img {
+    height: auto;
+    width: 20vw;
+    margin-left: 35vw;
+    align-content: center;
+    margin-top:-10px;
+    display: none;
+    
+    }
+    .navbar-logo img{
+        height: auto;
+        width: 10vw;
+        align-content: center;
+        margin-top:-10px;
+        display: block;
+    }
+    
+    .nav-link  {
+    font-size: 1.5rem;
+    margin-left: 20px;
+    margin-right: 50px;
+      margin-top: 15px;
+      letter-spacing: 5px;
+}
+
+@media (max-width: 992px) {
+    .mobileMenu {
+      transform: translateX(-100%);
+      position: fixed;
+      top: 0;
+      bottom: 0;
+      margin: auto;
+      left: 0;
+      transition: all ease 0.25s;
+      width: 30vw;
+    }
+    .mobileMenu.onRight {
+      left: auto;
+      right: 0;
+      transform: translateX(100%);
+    }
+    .mobileMenu.open {
+      transform: translateX(0%);
+    }
+    .mobileMenu .navbar-nav {
+      overflow-y: auto;
+    }
+    .overlay {
+      position: fixed;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      margin: auto;
+      background-color: rgba(0, 0, 0, 0.5);
+      display: none;
+    }
+    .overlay.open {
+      display: block;
+      z-index: 1029;
+    }
+  }
+
+  #sidebarCollapse {
+    float: right;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    cursor: pointer;
+}
+
+#sidebarCollapse span {
+    width: 80%;
+    height: 2px;
+    margin: 0 auto;
+    display: block;
+    background: #555;
+    transition: all 0.8s cubic-bezier(0.810, -0.330, 0.345, 1.375);
+    transition-delay: 0.2s;
+}
+
+#sidebarCollapse span:first-of-type {
+    transform: rotate(45deg) translate(2px, 2px);
+}
+#sidebarCollapse span:nth-of-type(2) {
+    opacity: 0;
+}
+#sidebarCollapse span:last-of-type {
+    transform: rotate(-45deg) translate(1px, -1px);
+}
+
+
+#sidebarCollapse.active span {
+    transform: none;
+    opacity: 1;
+    margin: 5px auto;
+}
+
+    }
+    
+    .navbar,  {
+        background-color: transparent;
+    }
+@media (max-width: 768px) {
+#sidebarCollapse span:first-of-type,
+    #sidebarCollapse span:nth-of-type(2),
+    #sidebarCollapse span:last-of-type {
+        transform: none;
+        opacity: 1;
+        margin: 5px auto;
+    }
+    #sidebarCollapse.active span {
+        margin: 0 auto;
+    }
+    #sidebarCollapse.active span:first-of-type {
+        transform: rotate(45deg) translate(2px, 2px);
+    }
+    #sidebarCollapse.active span:nth-of-type(2) {
+        opacity: 0;
+    }
+    #sidebarCollapse.active span:last-of-type {
+        transform: rotate(-45deg) translate(1px, -1px);
+    }
+    .navbar-logo img {
+        display: none;
+    }
+    .navbar-logo2 {
+        display: block;
+    }
+    .navbar, .navbar-collapse {
+        background-color: #1b1b1b;
+     
+    }
+    .navbar-logo2 img {
+        height: auto;
+        width: 20vw;
+        margin-left: 35vw;
+        align-content: center;
+        margin-top:-10px;
+        display: block;
+        
+        }
+ 
+    .navbar-collapse {width: 30vw;}
+}
+
+

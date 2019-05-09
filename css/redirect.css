@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'Abadi MT Condensed';
+    src: url('AbadiMT-CondensedLight.woff2') format('woff2'),
+        url('AbadiMT-CondensedLight.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+}
+
+
+html, body {
+    font-family: "Abadi MT Condensed";
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    color: #1b1b11;
+}
+
+h3 {
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 30vh;
+}
